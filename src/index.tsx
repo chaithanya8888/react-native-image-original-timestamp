@@ -17,6 +17,6 @@ const ImageOriginalTimestamp = NativeModules.ImageOriginalTimestamp
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return ImageOriginalTimestamp.multiply(a, b);
+export function fetchTimeStamp(url: string): Promise<string> {
+  return ImageOriginalTimestamp.fetchTimeStamp(url);
 }
