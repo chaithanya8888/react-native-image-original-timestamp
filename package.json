@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-original-timestamp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fetching the original timestamp of the react-native images",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
